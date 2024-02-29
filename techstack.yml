@@ -1,0 +1,90 @@
+repo_name: Jeff-Bouchard/ethPartialPrivateKeyRecover
+report_id: e5ce15815414aa3365df88e5cb42eecd
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:54:02+00:00'
+requested_by: blurpesec
+provider: github
+branch: master
+detected_tools_count: 4
+tools:
+- name: Go Ethereum
+  description: Open source platform to write and distribute decentralized applications
+  website_url: https://geth.ethereum.org/
+  license: LGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/9003/DOnqq1OM_400x400.jpg
+  detection_source_url: https://github.com/Jeff-Bouchard/ethPartialPrivateKeyRecover/blob/master/go.mod
+  detection_source: go.mod
+  last_updated_by: blurpesec
+  last_updated_on: 2021-02-09 00:54:06.000000000 Z
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ethPartialPrivateKeyRecover
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ethPartialPrivateKeyRecover
+  detection_source: Repo Metadata
+- name: go-ethereum
+  description: Official Go implementation of the Ethereum protocol
+  package_url: https://pkg.go.dev/github.com/ethereum/go-ethereum
+  version: 1.9.25
+  license: LGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jeff-Bouchard/ethPartialPrivateKeyRecover/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: blurpesec
+  last_updated_on: 2021-02-09 00:54:06.000000000 Z
+  vulnerabilities:
+  - name: Denial of Service in Go-Ethereum
+    cve_id: CVE-2022-23327
+    cve_url: https://github.com/advisories/GHSA-pvx3-gm3c-gmpr
+    detected_date: Mar 12
+    severity: high
+    first_patched: 
+  - name: Denial of Service in Go-Ethereum
+    cve_id: CVE-2022-23328
+    cve_url: https://github.com/advisories/GHSA-vmf7-hmh6-vv57
+    detected_date: Mar 12
+    severity: high
+    first_patched: 
+  - name: Denial of service in go-ethereum
+    cve_id: CVE-2021-42219
+    cve_url: https://github.com/advisories/GHSA-vrcc-g6vj-mh5w
+    detected_date: Mar 22
+    severity: high
+    first_patched: 
+  - name: Denial of Service in Go-Ethereum
+    cve_id: CVE-2021-43668
+    cve_url: https://github.com/advisories/GHSA-5m8f-chrv-7rw5
+    detected_date: Jan 18
+    severity: moderate
+    first_patched: 
+  - name: 'DoS via maliciously crafted p2p message '
+    cve_id: CVE-2021-41173
+    cve_url: https://github.com/advisories/GHSA-59hh-656j-3p7v
+    detected_date: Oct 26
+    severity: moderate
+    first_patched: 1.10.9
